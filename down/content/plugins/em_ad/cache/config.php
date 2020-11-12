@@ -1,0 +1,1 @@
+<?php defined('EMLOG_ROOT') or die('本页面禁止直接访问!'); return array('enable_cache' => 1);

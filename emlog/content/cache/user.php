@@ -1,0 +1,1 @@
+<?php exit;//a:1:{i:1;a:8:{s:5:"photo";a:3:{s:3:"src";s:49:"content/uploadfile/202003/thum-89781583043821.jpg";s:5:"width";i:140;s:6:"height";i:93;}s:6:"avatar";s:51:"content/uploadfile/202003/thum52-89781583043821.jpg";s:9:"name_orig";s:12:"网中小南";s:4:"name";s:12:"网中小南";s:4:"mail";s:16:"790864000@qq.com";s:3:"des";s:0:"";s:7:"ischeck";s:1:"n";s:4:"role";s:5:"admin";}}

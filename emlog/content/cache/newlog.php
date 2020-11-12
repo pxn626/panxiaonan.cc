@@ -1,0 +1,1 @@
+<?php exit;//a:5:{i:0;a:2:{s:3:"gid";i:58;s:5:"title";s:20:"python爬虫-自学1";}i:1;a:2:{s:3:"gid";i:56;s:5:"title";s:26:"Python中IO文件处理(2)";}i:2;a:2:{s:3:"gid";i:55;s:5:"title";s:26:"Python中IO文件处理(1)";}i:3;a:2:{s:3:"gid";i:54;s:5:"title";s:59:"PEP8编码规范之缩进规范Indent的详细讲解-Python";}i:4;a:2:{s:3:"gid";i:53;s:5:"title";s:25:"Python之PEP8编码规范";}}

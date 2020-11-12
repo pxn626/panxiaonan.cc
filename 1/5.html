@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件2</title>
+    <style type="text/css"></style>
+</head>
+<body>
+<input type="button" value="按钮" id="bt"/>
+</body>
+<script type="text/javascript">
+    //找到按钮
+    var button = document.getElementById("bt");
+    //注册事件(使用匿名函数)
+    button.onclick = function () {
+        window.prompt("请输入姓名");
+    }
+</script>
+</html>

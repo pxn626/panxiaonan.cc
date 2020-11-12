@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<title>2</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenLite.min.js"> </script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/plugins/CSSPlugin.min.js"> </script>
+	<style>
+		html, body {
+  height: 100%;
+}
+body {
+  background-color: #262626;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+}
+#box {
+  background-color: #88ce02;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.boxSmall {
+  position: absolute;
+  background-color: #70a40b;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 25px;
+  height: 75px;
+  z-index: 2;
+}
+	</style>
+	</head>
+	
+	<body>
+		<div id="box">
+			<div class="boxSmall"></div>
+		</div>
+	</body>
+	<script>
+		var $box = $('#box');
+		TweenMax.to($box, 3, {left:1500});
+		TweenLite.from($box, 2, {x: '-=200px', autoAlpha: 0});
+	</script>
+</html>

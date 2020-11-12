@@ -1,0 +1,68 @@
+body{padding-top:67px;background-color:#efefef;}
+
+#navbar{position:fixed;top:0;right:0;left:0;z-index:10;background:#fff;}
+.navbar-head{padding:0 1rem;}
+.navbar-head>.navbar-body>.nav>li>a{padding:1.25rem;}
+@media(min-width:1024px){
+	body{padding-top:92px;}
+}
+
+.title,.article>h2{background-color:var(--color-light);font-size:1.125rem!important;line-height:2.5;font-weight:400;padding-left:1rem;border-radius:.25rem .25rem 0 0;margin:0;}
+.title.size{font-size:1rem!important;}
+.blog{padding:1.5rem;position:relative;transition:all 0.3s ease;}
+.blog:not(:last-child){border-bottom:solid 1px var(--color-border-light);}
+.blog>time{position:absolute;top:1.5rem;right:1.5rem;line-height:1;font-size:2rem;text-align:center;background-image:linear-gradient(0deg,var(--color-sub),var(--color-main));background-clip:text;-webkit-background-clip:text;box-decoration-break:clone;-webkit-text-fill-color:transparent;}
+.blog>time>span{font-size:.75rem;transform:scale(.8);color:var(--color-gray);-webkit-text-fill-color:gray;}
+.blog>h3{font-size:1rem!important;font-weight:400;margin-bottom:.5rem;padding-right:50px;line-height:1.25;}
+.blog>h3>i{margin-top:-.5rem;margin-left:1rem;}
+.blog>.description{padding-top:.5rem;position:relative;}
+.blog>.description::before,.blog>.description::after{content:"";position:absolute;top:0;left:0;right:0;height:1px;background-color:var(--color-light);border-radius:2px;}
+.blog>.description::after{right:auto;width:1.5rem;background-color:var(--color-dot);transition:all 0.5s ease;}
+.blog>div>p.readmore{margin-top:.5rem;font-size:.75rem;transition:all 0.3s ease;}
+a.text-gray:hover{color:var(--color-main)!important;}
+.blog:hover{border-color:var(--color-border);}
+.blog:hover>h3>a{color:var(--color-main);}
+.blog:hover>.description::after{right:auto;width:100%;background:linear-gradient(90deg,var(--color-dot),var(--color-main));}
+.blog:hover>div>p.readmore{transform:translateX(.25rem);}
+.blog:hover>div>p.readmore>a{color:var(--color-main);}
+
+#pagenavi{text-align:center;margin-top:2rem;padding-bottom:1rem;font-size:.875rem;}
+#pagenavi>a,#pagenavi>span{display:inline-block;padding:3px 6px;background-color:#fff;border-radius:.25rem;line-height:1;}
+#pagenavi>span{background-color:transparent;color:var(--color-gray);}
+#pagenavi.review>a{background-color:var(--color-light);}
+.article{padding:1rem 1.5rem;background-color:var(--color-light);}
+.article>h2{font-size:1.25rem!important;padding-left:0;line-height:1.25;}
+.article>p{background-color:var(--color-light);margin:0;}
+.detail img{display:inline-block;max-width:100%;height:auto;}
+.nextlog{font-size:.875rem;border-top:solid 1px var(--color-border-light);padding-top:1rem;color:var(--color-border);}
+.nextlog>span:last-child{float:right;}
+
+.comments>.media:not(:last-child){border-bottom:solid 1px var(--color-border-light);padding-bottom:1rem;}
+.media .media>.media-body .hr{background:var(--color-light);}
+.media .media>.media-body .input{background:#fff;}
+.verify>img{position:absolute;top:.5rem;right:.5rem;}
+
+.blog-margin{margin:1rem;}
+.blog-margin-right-small{margin-right:.5rem;}
+.blog-padding-small{padding:.5rem;}
+@media(min-width:1024px){
+	.blog-margin{margin:2rem;}
+	.blog-margin-right-small{margin-right:1rem;}
+	.blog-padding-small{padding:1rem;}
+}
+
+.search{background:linear-gradient(165deg,var(--color-sub),var(--color-main));}
+.search+.side>h4{border-radius:0;}
+.side:not(:last-child){margin-bottom:1.5rem;}
+.side ul{background:#fff;border-radius:0 0 .25rem .25rem;list-style:none;margin:0;}
+.side ul>li{padding:.75rem 1rem;font-size:.875rem;line-height:1.25;}
+.side ul>li:not(:last-child){border-bottom:solid 1px var(--color-bg);}
+.side ul>li>a{color:var(--color-gray);display:block;transition:all 0.3s ease;}
+.side ul>li:hover>a{color:var(--color-main);transform:translateX(-.25rem);}
+
+.weiyu>.media:not(:last-child){border-bottom:solid 1px var(--color-border-light);margin-bottom:1rem;padding-bottom:.5rem;}
+.weiyu ul:empty{display:none;}
+.weiyu ul{margin-bottom:0;background:var(--color-light);padding:.5rem;border-radius:.25rem;}
+.weiyu span.name,.weiyu span.time{color:var(--color-gray);}
+.weiyu span.time{margin-left:.5rem;}
+.day>a{color:var(--color-main);}

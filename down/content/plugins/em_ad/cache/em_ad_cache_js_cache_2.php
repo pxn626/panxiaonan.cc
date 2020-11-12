@@ -1,0 +1,2 @@
+<?php exit; ?>
+s:407:"document.writeln("<div class=\"em_ad_footter\" style=\"width:px;height:px;display:inline-block;\">");document.writeln("	<script type=\"text/javascript\">");document.writeln("        var cpro_id = \"u6264182\";");document.writeln("        ");document.writeln("</script>");document.writeln("<script type=\"text/javascript\" src=\"//cpro.baidustatic.com/cpro/ui/cm.js\"></script></div>	");document.writeln("");";

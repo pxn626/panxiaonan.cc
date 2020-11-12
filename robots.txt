@@ -1,0 +1,17 @@
+﻿User-agent: *
+
+Disallow: /emlog/admin
+Disallow: /emlog/login
+Disallow: /emlog/upload
+Disallow: /emlog/database
+Disallow: /emlog/manager
+Disallow: /manager
+Disallow: /database
+Disallow: /upload
+Disallow: /login
+Disallow: /admin
+Disallow: /wp
+Disallow: /pw
+
+
+Sitemap:http://www.panxiaonan.cc/sitemap.xml
